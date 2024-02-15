@@ -20,7 +20,7 @@ function verificarIntento() {
     } else {
         //El usuario no acertó.
         if (numeroDeUsuario > numeroSecreto) {
-            asignarTextoElemento('p','El número secreto es menor');
+            asignarTextoElemento('p','El número secreto es menol');
         } else {
             asignarTextoElemento('p','El número secreto es mayor');
         }
